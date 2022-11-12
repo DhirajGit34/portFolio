@@ -6,8 +6,8 @@ export const products = [
   },
   {
     id: 2,
-    img: "https://bit.ly/3wTI7ZS",
-    link: "",
+    img: "https://github.com/DhirajGit34/WebsiteImage/blob/main/UI.png?raw=true",
+    link: "https://designux.netlify.app/",
   },
   {
     id: 3,

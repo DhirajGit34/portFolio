@@ -15,7 +15,7 @@ const About = () => {
         <div className="a-card bg" style={{backgroundColor: darkMode && "#222"  }}></div>
         <div className="a-card">
           <img
-            src="https://images.pexels.com/photos/879109/pexels-photo-879109.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=600"
             className="a-img"
             alt="papa"
           />
