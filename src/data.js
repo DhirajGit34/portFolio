@@ -27,6 +27,6 @@ export const products = [
   {
     id: 6,
     img: "https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg?size=626&ext=jpg&ga=GA1.2.2098174293.1636088550",
-    link: "https://evening-headland-28419.herokuapp.com/",
+    link: "",
   },
 ];
