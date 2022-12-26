@@ -1,17 +1,17 @@
 export const products = [
   {
     id: 1,
-    img: "https://bit.ly/3E0tVlR",
+    img: "https://images.pexels.com/photos/4586901/pexels-photo-4586901.jpeg?auto=compress&cs=tinysrgb&w=600",
     link: "https://evening-headland-28419.herokuapp.com/",
   },
   {
     id: 2,
-    img: "https://github.com/DhirajGit34/WebsiteImage/blob/main/UI.png?raw=true",
+    img: "https://images.pexels.com/photos/10622625/pexels-photo-10622625.jpeg?auto=compress&cs=tinysrgb&w=600",
     link: "https://designux.netlify.app/",
   },
   {
     id: 3,
-    img: "https://github.com/DhirajGit34/WebsiteImage/blob/main/Eduford%20(2).png?raw=true",
+    img: "https://images.pexels.com/photos/433333/pexels-photo-433333.jpeg?auto=compress&cs=tinysrgb&w=600",
     link: "https://github.com/DhirajGit34/Eduford",
   },
   {
