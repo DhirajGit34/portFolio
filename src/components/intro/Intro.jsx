@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import Me from "../../img/My.png";
+import Me from "../../img/mine.png";
 import Scroll from "../../img/mouse.png";
 
 
