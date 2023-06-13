@@ -3,7 +3,6 @@ import "./intro.css";
 import Me from "../../img/mine.png";
 import Scroll from "../../img/mouse.png";
 
-
 const Intro = () => {
   return (
     <div className="i">
@@ -24,11 +23,18 @@ const Intro = () => {
             online stores.
           </p>
         </div>
-        <img src={Scroll} alt="profile" className="i-scroll"></img>
+        <img src={Scroll} alt="profile" className="i-scroll" />
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src={Me} alt="profile" className="i-img"></img>
+        <img
+          src={Me}
+          alt="profile"
+          className="i-img"
+          loading="lazy"
+          sizes="(max-width: 500px) 100vw, (max-width: 768px) 500vw, 1280px"
+          srcSet={`${Me} 100w, ${Me} 500w, ${Me} 1280w`}
+        />
       </div>
     </div>
   );
