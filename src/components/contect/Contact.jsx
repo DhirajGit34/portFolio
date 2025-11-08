@@ -4,7 +4,7 @@ import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import emailjs from "@emailjs/browser";
-import { ThemeContext } from "../../context";
+import { ThemeContext } from "../../context/context";
 
 const Contact = () => {
   // (useRef) => It can be used to store a mutable value that does not cause a re-render when updated.
@@ -47,7 +47,10 @@ const Contact = () => {
 
   return (
     <div className="c">
-      <div className="c-bg" style={{backgroundColor: darkMode ? "#59b256" : "rgb(227, 227, 227)" }}></div>
+      <div
+        className="c-bg"
+        style={{ backgroundColor: darkMode ? "#59b256" : "rgb(227, 227, 227)" }}
+      ></div>
       <div className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">Let's Discuss Your Project </h1>

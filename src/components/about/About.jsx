@@ -1,18 +1,20 @@
 import React, { useContext } from "react";
 import "./about.css";
 import Award from "../../img/award.jpg";
-import { ThemeContext } from "../../context";
+import { ThemeContext } from "../../context/context";
 
 const About = () => {
-// darkmode
+  // darkmode
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-
 
   return (
     <div className="a">
       <div className="a-left">
-        <div className="a-card bg" style={{backgroundColor: darkMode && "#222"  }}></div>
+        <div
+          className="a-card bg"
+          style={{ backgroundColor: darkMode && "#222" }}
+        ></div>
         <div className="a-card">
           <img
             src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=600"

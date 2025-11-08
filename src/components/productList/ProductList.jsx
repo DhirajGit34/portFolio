@@ -1,7 +1,7 @@
 import React from "react";
 import Product from "../product/Product";
 import "./productList.css";
-import { products } from "../../data";
+import { products } from "../../utils/data";
 
 const ProductList = () => {
   return (
@@ -14,7 +14,7 @@ const ProductList = () => {
         </p>
       </div>
       <div className="pl-list">
-      {/* fatch items 4m data.js */}
+        {/* fatch items 4m data.js */}
         {products.map((items) => (
           <Product key={items.id} img={items.img} link={items.link} />
         ))}

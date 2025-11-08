@@ -55,7 +55,7 @@
 }
 .i-img {
   right: 0;
-  width: 85%;
+  width: 80%;
   height: 100%;
   object-fit: cover;
   position: absolute;
@@ -92,5 +92,7 @@
   }
   .i-img {
     width: 100%;
+    /* height: 100%; */
+    object-fit: fill;
   }
 }

@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer";
 import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
-import { ThemeContext } from "./context";
+import { ThemeContext } from "./context/context";
 
 const App = () => {
   // context Hook
@@ -14,13 +14,18 @@ const App = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div style={{ backgroundColor: darkMode ? "#222": "white", color: darkMode && "white" }}>
+    <div
+      style={{
+        backgroundColor: darkMode ? "#222" : "white",
+        color: darkMode && "white",
+      }}
+    >
       <Toggle />
       <Intro />
       <About />
       <ProductList />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 };
